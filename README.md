@@ -1,0 +1,1 @@
+Image slider project - from Odin jQuery Basics recommendations
