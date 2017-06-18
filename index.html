@@ -10,15 +10,18 @@
     
 <div id="wrapper">
     <div id="slider">
-        <img src="images/image1.jpg">
-        <img src="images/image2.jpg">
-        <img src="images/image3.jpg">
-        <img src="images/image4.jpg">
+        <img id="1" src="images/image1.jpg">
+        <img id="2" src="images/image2.jpg">
+        <img id="3" src="images/image3.jpg">
+        <img id="4" src="images/image4.jpg">
     </div>
     
-    <a href="#" class="left" >Previous</a>
-    <a href="#" class="right" >Next</a>
+    <a href="#" class="left" onclick="prev(); return false;" >Previous</a>
+    <a href="#" class="right" onclick="next(); return false;" >Next</a>
 </div> <!-- // wrapper -->    
+   
+<script src="js/jquery.js"></script> 
+<script src="js/slider.js"></script> 
     
 </body>
 </html>
